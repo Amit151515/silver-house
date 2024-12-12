@@ -1,0 +1,33 @@
+@media (max-width:1140px) {
+    .main-box{
+        gap: 30px;    
+    }
+}
+@media (max-width:900px) {
+    .main-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-box-right{
+        max-width: 730px;
+    }
+    
+    .footer-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+    }
+}
+@media (max-width:600px) {
+    .main-box-left,
+.main-box-right{
+    padding: 30px 20px;
+}
+}
